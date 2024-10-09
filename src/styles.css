@@ -1,0 +1,26 @@
+body {
+  background-color: black;
+  color: white;
+  width: 500px;
+  height: 500px;
+}
+
+.App {
+  margin-top: 100px;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.input {
+  border: none;
+  all: unset;
+  height: 50px;
+  width: 190px;
+  font-size: 200%;
+  color: white;
+  text-align: right;
+}
+
+.input::placeholder {
+  color: white;
+}
